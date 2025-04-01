@@ -9,8 +9,8 @@ button up을 하면 최종 선분을 저장하고 임시 선분을 삭제함.
 
 이 과정을 반복하여 여러 개의 선분 (line segment)을 그릴 수 있음. 
 ---------------------------------------------------------------------------*/
-import { resizeAspectRatio, setupText, updateText, Axes } from '/util.js';
-import { Shader, readShaderFile } from '/shader.js';
+import { resizeAspectRatio, setupText, updateText, Axes } from '../util/util.js';
+import { Shader, readShaderFile } from '../util/shader.js';
 
 // Global variables
 const canvas = document.getElementById('glCanvas');
